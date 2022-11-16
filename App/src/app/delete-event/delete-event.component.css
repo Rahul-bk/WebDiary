@@ -1,0 +1,67 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+#dairy-home{
+    max-width: 100%;
+    height: 100vh;
+    background-color: rgb(201, 170, 105);    
+   
+   
+}
+.back{
+    background-color: rgba(255, 255, 255, 0.397);
+}
+#logout_button{
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+.navbar
+{
+    background-color: rgba(0, 255, 255, 0.363);
+}
+.ma
+{
+    /* background-image: url(/src/assets/gradienta-rKv4HduvzIE-unsplash.jpg); */
+    height: 100vh;
+    /* background-color: rgba(80, 66, 66, 0.5);
+    overflow: hidden; */
+}
+.blah{
+    position: relative;
+    left: 150px;
+}
+
+/*-------------------------------*/
+
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+    color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+    color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+    background-color: #cbbcb1;
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    letter-spacing: 3px;
+}

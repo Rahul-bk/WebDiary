@@ -1,0 +1,107 @@
+<!-- 
+<nav class="navbar">
+    <div class="row container-fluid">
+        <div class="col-md-6">
+            <h3 class="welcome">MY  VIRTUAL  JOURNAL</h3>
+        </div>
+        <div class="col-md-3 ">
+            <div class="blah">
+            <i class="bi bi-house-door me-3 fs-3 ico" routerLink="/event"></i>
+            <i class="bi bi-layout-text-sidebar-reverse fs-3 ico" routerLink="/event-delete"></i>
+          </div>
+            <button class="btn btn-outline-dark" routerLink="/login" id="logout_button"><strong>Logout</strong></button>
+        </div>
+       
+    </div>
+</nav> -->
+
+
+
+<div id="back-image">
+
+    
+
+<header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+      <div class="container">
+        <a class="navbar-brand" href="#!"><span style="color: #344746;">A Virtual</span><span style="color: #fff;">Journal</span></a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+  
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/event" data-bs-toggle="modal" id="yourday" data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo">Add</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/event-delete">Dairy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/about">About</a>
+            </li>
+        
+          </ul>
+          <button class="btn btn-outline-dark" routerLink="/login" id="logout_button"><strong>Logout</strong></button>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+  </header>
+
+
+
+
+<div class="hom">
+    <div class="intro">
+        <p><strong>"Life isn't just about creating memories but making it memorable foreever".<br>
+            Write down your memories from anywhere,
+            <br> at any Time Safe and Easy.
+        </strong></p>
+    </div>
+    <div class="wyd">
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" id="yourday" data-bs-target="#exampleModal"
+        data-bs-whatever="@mdo"><strong>Write your Day</strong></button>
+    </div>
+</div>
+
+
+<!-- image----------- -->
+</div>
+
+<!-- -------------- -->
+
+        <!-- <strong> <i class="bi bi-plus-lg"></i></strong> -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Your Quotes</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form [formGroup]="eventForm">
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Title</label>
+                            <input type="text" class="form-control" id="recipient-name" formControlName="eventName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Event Date</label>
+                            <input type="date" class="form-control" id="recipient-name" formControlName="eventDate">
+                        </div>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Explain Your Day</label>
+                            <textarea rows="4" cols="50" formControlName="userId"></textarea>                        
+                            </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success"  (click)="Event()" >Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+

@@ -1,0 +1,40 @@
+  
+
+<section id="main">
+        <div class="center-div">
+            <div class="container">
+                <div class="head-reg">
+                    <h2>Create Account</h2>
+                </div>
+                <form [formGroup]="registerform">
+                    <div class="inp mb-2">
+                        <i class="bi bi-person"></i>
+                        <input type="text" placeholder="User id" formControlName="userid">
+                    </div>
+                    <div class="inp mb-2">
+                        <i class="bi bi-envelope"></i>
+                        <input type="text" placeholder="Email" formControlName="email">
+                    </div>
+                    <div class="inp mb-2">
+                        <i class="bi bi-shield-lock"></i>
+                        <input type="text" placeholder="Passwod" formControlName="password">
+                    </div>
+                    <div class="inp mb-2">
+                        <i class="bi bi-calendar"></i>
+                        <input type="date" placeholder="Date of Birth" formControlName="dateOfBirth">
+                    </div>
+                    <div class="sign-btn mt-4">
+                        <button class="" (click)="register()"><strong>SIGN UP</strong></button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="container reg-side">
+                <h2 class="text-center">Welcome</h2>
+                <p class="text-center">Mark your personal day today !</p>
+                <div class="  text-center mt-4">
+                    <button class="side-btn " routerLink="/login"><strong><label for="check1">SIGN IN</label></strong></button>
+                </div>
+            </div>
+        </div>
+</section>

@@ -1,0 +1,35 @@
+.mainn
+{
+    text-align: center;
+}
+.content
+{
+    text-align: center;
+    font-family: cursive;
+    width: 240px;
+    margin-left: 370px;
+    margin-top: 100px;
+}
+.se
+{
+    color:red;
+    font-family: monospace;
+}
+#back
+{
+    /* background-color: rgba(190, 223, 212, 0.336); */
+    /* background-image: url(/src/assets/austin-chan-ukzHlkoz1IE-unsplash.jpg); */
+    height: 100vh;
+    font-family: monospace;
+    color: rgba(0, 0, 0, 0.829);
+}
+.info
+{
+    margin-top: 50px;
+    background-color: rgba(236, 159, 65, 0.671);
+    width: 70%;
+    margin-left: 200px;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px black;
+}

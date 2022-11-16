@@ -1,0 +1,89 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+#add
+{
+    color:rgb(32, 17, 238);
+    background-color: aqua;
+}
+#logout_button{
+    color: white;
+}
+#back-image {
+    max-width: 100%;
+    height: 97.5vh;
+    
+   
+    background-image: url('../../assets/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.ico
+{
+    color: aliceblue;
+}
+.fade{
+    height: fit-content;
+}
+.hom
+{
+    width: 100%;
+    text-align: center;
+    top: 320px;
+    left: 10px;
+    position: relative;
+}
+#logout_button {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+.blah{
+    position: relative;
+    left: 130px;
+}
+.welcome
+{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+    .navbar{
+    background-color: rgba(255, 255, 255, 0.596);
+    }
+
+    #yourday
+    {
+color: black;
+    }
+.intro
+{
+    color: black;
+    font-size: small;
+    width: 580px;
+    position: relative;
+    left: 420px;
+    font-family: cursive, Geneva, Tahoma, sans-serif;
+}
+.wyd
+{
+    position: relative;
+    padding-top: 40px;
+    left: 40px;
+    
+}
+#yourday
+{
+    color: rgb(241, 253, 251);
+    position: relative;
+    
+}
+
+/*-----------------------------*/
+
+
